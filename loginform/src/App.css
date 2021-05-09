@@ -1,0 +1,18 @@
+
+.Login {
+  height: 50vh;
+  width: 50vh;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+input {
+  margin: 10px;
+  margin-left: 5px;
+}
