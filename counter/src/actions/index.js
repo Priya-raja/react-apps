@@ -1,12 +1,12 @@
-export const increment = () => {
+export const login = () => {
     return {
-        type: 'INCREMENT'
+        type: 'LOGIN'
     };
     
 }
-export const decrement = () => {
+export const logout = () => {
     return {
-        type: 'DECREMENT'
+        type: 'LOGOUT'
     };
     
 }
