@@ -37,7 +37,7 @@ const WeekdayTitle = styled.div`
             {/* <button onClick ={ () => dispatch(decrement())}> - </button> */}
             {/* {isLogged ? <h2> Hi Welcome </h2>: ""} */} 
             <h1> Progress Tracker</h1>
-            <Section>
+            {/* <Section>
                 <WeekdayTitle>M</WeekdayTitle>
             </Section>
             <Section>
@@ -54,11 +54,12 @@ const WeekdayTitle = styled.div`
             </Section>
             <Section>
                 <WeekdayTitle>S</WeekdayTitle>
-            </Section>
-            <Button primary text="First Me"> </Button>
-            <Button text="Second Me"> </Button>
-            <Icon primary/>
-            <Icon></Icon>
+            </Section> */}
+            {/* <Button primary text="First Me"> </Button>
+            <Button text="Second Me"> </Button> */}
+            {/* <Icon primary/>
+            <Icon></Icon> */}
+            <Content/>
 
         </>
     )

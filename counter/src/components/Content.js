@@ -9,6 +9,14 @@ function Content() {
       
     const Title = styled.h1`color: #aac9f0;`
 
+    const SubTitle = styled(Title)`
+    font-size: 12px;
+    align-self: center;
+`
+const ParagraphTitle = styled(SubTitle)`
+color: grey;
+`
+
     const Section = styled.div`
     background-color: #f0d1aa;
     display: flex;
@@ -29,8 +37,13 @@ function Content() {
     return (
         <Section>
             <Title>Section</Title>
-            <Button>Click Me</Button>
-            <Button>Click Me</Button>
+            <SubTitle>I am a subtitle</SubTitle>
+            <Button text='me first' primary/>
+            <Button text='me second'/>
+            <Icon primary />
+            <Icon />
+            <ParagraphTitle>I am a paragraph</ParagraphTitle>
+            
             
 
         </Section>
